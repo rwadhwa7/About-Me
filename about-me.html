@@ -5,9 +5,14 @@
     </head>
     <body>
         <header>
-            <img src="/Users/rishiwadhwa/Desktop/Website_Selfie.JPG" alt="Welcome_Selfie" width="316" height="240"> 
-            <h1> Rishi Wadhwa </h1>
-            <h2> Introduction </h2>
+            <a href="#Me"> <img src="/Users/rishiwadhwa/Desktop/Website_Selfie.JPG" alt="Welcome_Selfie" width="316" height="240"> </a> 
+            <ul>
+                <li> <a href="#Intro"> Intro </a> </li>
+                <li> <a href="#Background"> Background </a> </li>
+                <li> <a href="#Hobbies"> Hobbies </a> </li>
+            </ul>
+            <h1 id="Me"> Rishi Wadhwa </h1>
+            <h2 id="Intro" class="Header"> Introduction </h2>
             <p> I am a Computer Scientist. 
                 I try my best to maintain a <strong> balanced </strong> lifestyle. 
                 This website communicates that lifestyle.
@@ -24,6 +29,12 @@
                 you can add your email and whenever I feel that I have made a significant update, I can notify all of you. 
                 You can bet that the notifications themselves will be terse and occasional ;)
             </p>
+            <p> 
+                <input type="email" placeholder="email@provider.com">
+                <button type="button">
+                    Submit
+                </button>
+            </p>
             <p> My intention is to introduce you all to something, even if it ends up being just one thing, that you could positively incorporate into your own life :) </p>
             <p>
                 Anyways, I will try to keep the vibe of this website fun and laid back. 
@@ -32,7 +43,7 @@
         </header>
         <article>
             <section>
-                <h2> My Background </h2>
+                <h2 id="Background" class="Header"> My Background </h2>
                 <h3> College </h3>
                 <p> As of May 21, 2020 I am a student at the University of Illinois at Urbana-Champaign (UIUC). 
                     I study Computer Science in its College of Engineering. 
@@ -45,7 +56,7 @@
                 </p>
             </section>
             <section>
-                <h2> My Hobbies </h2>
+                <h2 id="Hobbies" class="Header"> My Hobbies </h2>
                 <ul>
                     <li> Soccer </li>
                     <li> Table Tennis With My Dad </li>
